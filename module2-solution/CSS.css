@@ -1,1 +1,58 @@
 
+body {
+	padding-right: 0px;
+	margin-right: 0px;
+}
+div {
+	background-color: gray;
+	padding-top:35px;
+	padding-left: 5px;
+	margin: 5px;
+	border: 2px solid black;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+
+}
+p {
+	width: 65px;
+	margin-top: 0px; 
+	border-bottom:2px solid black;
+	border-left:2px solid black;
+	padding: 5px;
+	position:absolute;
+	top:0px;
+	right: 0px;
+
+
+/*		position: relative;
+	top: 0px;
+	left: 92%;*/
+}
+
+#p1{
+	font-size: 120%;
+	background-color: red;
+
+}
+#p2{
+	font-size: 120%;
+	background-color: orange;
+}
+#p3{
+	font-size: 120%;
+	background-color: yellow;
+}
+@media(min-width:992px){
+div {
+	width : 32%;
+}
+}
+@media(max-width: 991px ) and (min-width:  768px){
+div {
+	width : 48%;
+}
+.par {
+	width: 97.5%;
+}
+}
